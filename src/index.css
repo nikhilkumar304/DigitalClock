@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Righteous&display=swap");
+a {
+    text-decoration: none;
+    color: #000;
+}
+a:hover {
+    color: rgb(179, 179, 179);
+}
+/* .site-header {
+    border-bottom: 1px solid #ccc;
+    padding: 0.5em 1em;
+    display: flex;
+    justify-content: space-between;
+} */
+.site-identity h1 {
+    font-size: 1.5em;
+    margin: 0.6em 0;
+    display: inline-block;
+}
+.site-navigation ul,
+.site-navigation li {
+    margin: 0;
+    padding: 0;
+}
+.site-navigation li {
+    display: inline-block;
+    margin: 1.4em 1em 1em 1em;
+}
+
+
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Poppins",sans-serif;
+  min-height: 100vh;
+  background-color: #a9c9ff;
+  background-image: linear-gradient(180deg, #a9c9ff 0%, #ffbbec 100%);
+}
+.container {
+    max-width: 100vw;
+    display: grid;
+    grid-template-columns: repeat(autoFit, minmax(300px, 1fr));
+    grid-gap: 35px;
+    margin: 0 auto;
+    padding: 40px 0;
+}
+.card {
+    display:inline-block;
+    position: relative;
+    width: 400px;
+    height: 500px;
+    margin: 0 auto;
+    background: #000;
+    border-radius: 15px;
+    box-shadow: 0 15px 60px rgba(0, 0, 0, 0.5);
+}
+.card:hover .face.face2 {
+    height: 60px;  
+  }
+.face {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    }
+ h2 {
+        margin: 0;
+        padding: 0;
+        font-size: 6em;
+        color: #fff;
+        transition: 0.5s;
+        text-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+        z-index: 9;
+        
+    }
+    
+    .face1 {
+        box-sizing: border-box;
+        padding: 20px;
+    }
+    .content {
+        background-color: #fff;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    #Btn{
+      text-transform: uppercase;
+      background: purple;
+      color:antiquewhite;
+      border:2 px solid white;
+      border-radius:20px;
+    }
+   
+      
+    
+ 
